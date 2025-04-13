@@ -23,30 +23,30 @@ interface Project {
 }
 
 const projectsData: Project[] = [
-  {
-    title: "BadEasyTranslator",
-    description: "英語学習特化型モバイルアプリ（React Native / CoreML / OCR）",
-    image: "/bad-easy-main.png?height=200&width=100",
-    technologies: [{ name: "React Native" }, { name: "CoreML" }, { name: "raspberrypi" },{name:"phi3.5 mini"}],
-    link: "https://badeasy-translator.prep-an.com",
-    category: "mobile",
-  },
-  {
-    title: "歩くアルパカ+R",
-    description: "学生生活支援アプリ（時間割, SNS）",
-    image: "/arupaka-main.png?height=200&width=400",
-    technologies: [{ name: "React Native" }, { name: "Firebase" },{name:"Nest"},{name:"Django"}, { name: "Redux" }],
-    link: "https://apps.apple.com/us/app/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB%E6%94%AF%E6%8F%B4%E3%82%A2%E3%83%97%E3%83%AAfor%E7%AB%8B%E5%91%BD%E9%A4%A8-%E6%AD%A9%E3%81%8F%E3%82%A2%E3%83%AB%E3%83%91%E3%82%AB-r/id6499567971",
-    category: "mobile",
-  },
-  {
-    title: "リツフレ",
-    description: "学内マッチングSNS",
-    image: "/placeholder.svg?height=200&width=400",
-    technologies: [{ name: "React Native" }, { name: "Firebase" }, { name: "Nest.js" }],
-    link: "https://apps.apple.com/jp/app/%E3%83%AA%E3%83%84%E3%83%95%E3%83%AC-%E7%AB%8B%E5%91%BD%E9%A4%A8%E5%A4%A7%E5%AD%A6%E5%90%91%E3%81%91%E5%AD%A6%E5%86%85sns/id6636493917",
-    category: "mobile",
-  },
+  // {
+  //   title: "BadEasyTranslator",
+  //   description: "英語学習特化型モバイルアプリ（React Native / CoreML / OCR）",
+  //   image: "/bad-easy-main.png?height=200&width=100",
+  //   technologies: [{ name: "React Native" }, { name: "CoreML" }, { name: "raspberrypi" },{name:"phi3.5 mini"}],
+  //   link: "https://badeasy-translator.prep-an.com",
+  //   category: "mobile",
+  // },
+  // {
+  //   title: "歩くアルパカ+R",
+  //   description: "学生生活支援アプリ（時間割, SNS）",
+  //   image: "/arupaka-main.png?height=200&width=400",
+  //   technologies: [{ name: "React Native" }, { name: "Firebase" },{name:"Nest"},{name:"Django"}, { name: "Redux" }],
+  //   link: "https:.apple.com/us/app/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB%E6%94%AF%E6%8F%B4%E3%82%A2%E3%83%97%E3%83%AAfor%E7%AB%8B%E5%91%BD%E9%A4%A8-%E6%AD%A9%E3%81%8F%E3%82%A2%E3%83%AB%E3%83%91%E3%82%AB-r/id6499567971",
+  //   category: "mobile",
+  // },
+  // {
+  //   title: "リツフレ",
+  //   description: "学内マッチングSNS",
+  //   image: "/placeholder.svg?height=200&width=400",
+  //   technologies: [{ name: "React Native" }, { name: "Firebase" }, { name: "Nest.js" }],
+  //   link: "https://apps.apple.com/jp/app/%E3%83%AA%E3%83%84%E3%83%95%E3%83%AC-%E7%AB%8B%E5%91%BD%E9%A4%A8%E5%A4%A7%E5%AD%A6%E5%90%91%E3%81%91%E5%AD%A6%E5%86%85sns/id6636493917",
+  //   category: "mobile",
+  // },
   {
     title: "警察落とし物検索",
     description: "スクレイピング×SpringBoot",

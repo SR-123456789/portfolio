@@ -149,7 +149,7 @@ export default function Contact() {
                 </Link>
 
                 <Link
-                  href="https://github.com/SR-123456789"
+                  href="https://"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-white hover:text-[#59ffd2] transition-colors p-2 -ml-2 rounded-md hover:bg-[#1d3a6a] group"
@@ -161,7 +161,7 @@ export default function Contact() {
                 </Link>
 
                 <Link
-                  href="https://jp.linkedin.com/in/%E5%A3%AE%E5%BF%97-%E4%B8%AD%E8%B0%B7-1b24332b6"
+                  href="https://"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-white hover:text-[#59ffd2] transition-colors p-2 -ml-2 rounded-md hover:bg-[#1d3a6a] group"
